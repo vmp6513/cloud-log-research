@@ -225,6 +225,8 @@ Azure Monitor 提供 `List Activity Logs` REST API，表面上看可以直接拉
 
 ---
 
+## 4. 方案一：诊断设置 → Event Hub
+
 这是微软官方推荐的 SIEM 集成方式，主流安全厂商（Splunk、QRadar、ArcSight）均原生支持此路径。
 
 ### 4.1 整体链路
